@@ -1,226 +1,924 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Scholar Packs creates creative, visual educational resources, worksheets, flashcards, games and activities for teachers, homeschoolers and students." />
+  <meta name="theme-color" content="#17324d" />
+  <title>Scholar Packs | Creative Educational Resources for Teachers</title>
 
-<!-- ===== BASIC SEO ===== -->
-<title>Scholar Packs — History Comics, Flashcards & Printable Activities</title>
-<meta name="description" content="History and social studies comics, flashcards and printable activities, classroom-tested. Available in the TPT store.">
-<link rel="canonical" href="https://scholarpacks.github.io/en/">
+  <!-- ===== PINTEREST DOMAIN VERIFICATION ===== -->
+  <meta name="p:domain_verify" content="dbc02ff8e0d2ce5f32b68faa9bc3d8e5"/>
 
-<!-- ===== ALTERNATE LANGUAGES ===== -->
-<link rel="alternate" hreflang="es" href="https://scholarpacks.github.io/es/">
-<link rel="alternate" hreflang="en" href="https://scholarpacks.github.io/en/">
-<link rel="alternate" hreflang="x-default" href="https://scholarpacks.github.io/">
+  <!-- ===== CANONICAL + ALTERNATE LANGUAGES ===== -->
+  <link rel="canonical" href="https://scholarpacks.github.io/en/">
+  <link rel="alternate" hreflang="es" href="https://scholarpacks.github.io/es/">
+  <link rel="alternate" hreflang="en" href="https://scholarpacks.github.io/en/">
+  <link rel="alternate" hreflang="x-default" href="https://scholarpacks.github.io/">
 
-<!-- ===== OPEN GRAPH ===== -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="Scholar Packs — History Resources for Your Classroom">
-<meta property="og:description" content="History comics, flashcards and printable activities, classroom-tested.">
-<meta property="og:image" content="https://scholarpacks.github.io/assets/og-image.png">
-<meta property="og:url" content="https://scholarpacks.github.io/en/">
-<meta property="og:locale" content="en_US">
-<meta property="og:locale:alternate" content="es_ES">
+  <!-- ===== OPEN GRAPH ===== -->
+  <meta property="og:title" content="Scholar Packs | Creative Educational Resources" />
+  <meta property="og:description" content="Discover creative educational resources designed to make teaching easier and learning more memorable." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://scholarpacks.github.io/en/">
+  <meta property="og:image" content="https://scholarpacks.github.io/assets/og-image.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_ES">
 
-<!-- ===== TWITTER CARD ===== -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Scholar Packs — History Resources for Your Classroom">
-<meta name="twitter:description" content="History comics, flashcards and printable activities.">
-<meta name="twitter:image" content="https://scholarpacks.github.io/assets/og-image.png">
+  <!-- ===== TWITTER CARD ===== -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Scholar Packs | Creative Educational Resources">
+  <meta name="twitter:description" content="Discover creative educational resources designed to make teaching easier and learning more memorable.">
+  <meta name="twitter:image" content="https://scholarpacks.github.io/assets/og-image.png">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../assets/style.css">
+  <!-- ===== STRUCTURED DATA ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "OnlineStore",
+    "name": "Scholar Packs",
+    "description": "Creative, visual educational resources: worksheets, flashcards, games and activities for teachers, homeschoolers and students.",
+    "url": "https://scholarpacks.github.io/en/",
+    "sameAs": [
+      "https://www.teacherspayteachers.com/store/scholar-packs"
+    ]
+  }
+  </script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "OnlineStore",
-  "name": "Scholar Packs",
-  "description": "History and social studies resources: comics, flashcards and printable activities for teachers.",
-  "url": "https://scholarpacks.github.io/en/",
-  "sameAs": [
-    "[LINK_TPT_TIENDA]",
-    "[LINK_PINTEREST]",
-    "[LINK_INSTAGRAM]"
-  ]
-}
-</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 
+  <style>
+    :root {
+      --navy:#17324d;
+      --navy-2:#244967;
+      --ink:#182532;
+      --muted:#667788;
+      --paper:#fffdf8;
+      --white:#ffffff;
+      --line:#e6e9e5;
+      --yellow:#ffd45a;
+      --orange:#ff8b4a;
+      --coral:#ff6f61;
+      --cyan:#53c8d8;
+      --mint:#72d3ae;
+      --lime:#b7df63;
+      --lavender:#b9a7ef;
+      --shadow:0 18px 50px rgba(23,50,77,.10);
+      --shadow-soft:0 8px 28px rgba(23,50,77,.08);
+      --radius:24px;
+      --max:1180px;
+    }
+
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body {
+      margin:0;
+      color:var(--ink);
+      background:var(--paper);
+      font-family:"DM Sans",system-ui,sans-serif;
+      line-height:1.55;
+    }
+    img { max-width:100%; display:block; }
+    a { color:inherit; text-decoration:none; }
+    button, input { font:inherit; }
+    button { cursor:pointer; }
+    .container { width:min(var(--max),calc(100% - 40px)); margin:auto; }
+
+    /* NAVBAR */
+    .nav {
+      position:sticky; top:0; z-index:1000;
+      background:rgba(255,253,248,.92);
+      backdrop-filter:blur(14px);
+      border-bottom:1px solid rgba(230,233,229,.85);
+    }
+    .nav-inner { height:76px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+    .brand { display:flex; align-items:center; gap:11px; font-weight:800; }
+    .brand-mark {
+      width:39px; height:39px; border-radius:12px; position:relative;
+      background:var(--navy); display:grid; place-items:center;
+      box-shadow:4px 4px 0 var(--yellow);
+    }
+    .brand-mark span { color:#fff; font-family:"Plus Jakarta Sans"; font-size:17px; }
+    .brand-text { line-height:1.05; }
+    .brand-name { font-family:"Plus Jakarta Sans"; letter-spacing:-.03em; font-size:17px; }
+    .brand-tag { font-size:9px; color:var(--muted); letter-spacing:.08em; text-transform:uppercase; margin-top:3px; }
+    .nav-links { display:flex; gap:28px; align-items:center; }
+    .nav-links a { color:#4f6170; font-size:14px; font-weight:600; }
+    .nav-links a:hover { color:var(--navy); }
+    .nav-cta,.btn-primary {
+      background:var(--navy); color:#fff; border:0; border-radius:13px;
+      padding:12px 18px; font-weight:700; transition:.2s ease;
+      box-shadow:0 6px 0 rgba(23,50,77,.12);
+    }
+    .nav-cta:hover,.btn-primary:hover { transform:translateY(-2px); box-shadow:0 8px 0 rgba(23,50,77,.13); }
+    .menu-btn { display:none; background:none; border:0; font-size:26px; color:var(--navy); }
+
+    /* HERO */
+    .hero { padding:78px 0 70px; overflow:hidden; }
+    .hero-grid { display:grid; grid-template-columns:1fr 1fr; gap:70px; align-items:center; }
+    .eyebrow {
+      display:inline-flex; align-items:center; gap:8px; padding:7px 11px;
+      border-radius:999px; background:#eef7f2; color:#37755d; font-size:12px; font-weight:800;
+      text-transform:uppercase; letter-spacing:.07em;
+    }
+    .eyebrow-dot { width:7px; height:7px; border-radius:50%; background:var(--mint); }
+    h1,h2,h3 { font-family:"Plus Jakarta Sans",sans-serif; color:var(--navy); letter-spacing:-.045em; line-height:1.05; }
+    h1 { font-size:clamp(46px,5.4vw,72px); margin:18px 0 22px; max-width:650px; }
+    h1 em { font-style:normal; position:relative; z-index:1; }
+    h1 em::after {
+      content:""; position:absolute; left:-4px; right:-4px; bottom:1px; height:12px;
+      background:var(--yellow); z-index:-1; border-radius:4px; transform:rotate(-1deg);
+    }
+    .hero-copy { color:var(--muted); font-size:18px; max-width:570px; }
+    .hero-actions { display:flex; flex-wrap:wrap; gap:12px; margin:28px 0; }
+    .btn-primary { display:inline-flex; align-items:center; gap:8px; padding:15px 21px; }
+    .btn-secondary {
+      display:inline-flex; align-items:center; gap:8px; padding:14px 20px;
+      border:1px solid #d8dfda; border-radius:13px; font-weight:700; color:var(--navy); background:#fff;
+    }
+    .btn-secondary:hover { border-color:#aab8b2; transform:translateY(-1px); }
+    .trust-row { display:flex; flex-wrap:wrap; gap:18px; color:#687986; font-size:12px; font-weight:700; }
+    .trust-row span::before { content:"✓"; color:#469d79; margin-right:6px; }
+
+    /* HERO VISUAL */
+    .hero-visual { min-height:520px; position:relative; }
+    .desk {
+      position:absolute; inset:35px 5px 15px;
+      border-radius:36px; background:#f0e9da; transform:rotate(2deg);
+      box-shadow:var(--shadow);
+    }
+    .paper-card {
+      position:absolute; background:#fff; border:1px solid rgba(23,50,77,.08);
+      box-shadow:0 15px 35px rgba(23,50,77,.15); border-radius:16px; overflow:hidden;
+    }
+    .hero-sheet { width:290px; height:365px; right:65px; top:70px; transform:rotate(5deg); z-index:4; }
+    .sheet-top { height:94px; padding:18px; background:var(--cyan); }
+    .sheet-top strong { display:block; font-family:"Plus Jakarta Sans"; color:var(--navy); font-size:24px; }
+    .sheet-top small { font-weight:700; color:#244967; }
+    .sheet-body { padding:18px; }
+    .fake-lines { display:grid; gap:10px; }
+    .fake-lines i { height:10px; background:#e9edf0; border-radius:5px; display:block; }
+    .fake-lines i:nth-child(2){width:76%}.fake-lines i:nth-child(3){width:88%}.fake-lines i:nth-child(4){width:62%}
+    .state-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:18px; }
+    .state-grid b { height:45px; border-radius:9px; background:#eef6f0; display:grid; place-items:center; font-size:11px; color:#37614f; }
+    .hero-flash { width:190px; height:260px; left:35px; top:105px; transform:rotate(-9deg); z-index:5; }
+    .flash-head { height:105px; background:var(--yellow); display:grid; place-items:center; }
+    .globe { width:70px; height:70px; border:4px solid var(--navy); border-radius:50%; position:relative; }
+    .globe::before { content:""; position:absolute; inset:8px 19px; border-left:3px solid var(--navy); border-right:3px solid var(--navy); border-radius:50%; }
+    .globe::after { content:""; position:absolute; left:7px; right:7px; top:30px; border-top:3px solid var(--navy); }
+    .flash-body { padding:15px; }
+    .flash-body strong { font-family:"Plus Jakarta Sans"; font-size:18px; color:var(--navy); }
+    .hero-book { width:225px; height:165px; left:150px; bottom:42px; transform:rotate(-4deg); z-index:7; }
+    .book-cover { height:100%; padding:20px; background:var(--coral); color:#fff; }
+    .book-cover small { font-weight:800; text-transform:uppercase; letter-spacing:.1em; }
+    .book-cover h3 { color:#fff; font-size:25px; margin:12px 0; }
+    .book-cover .comic-box { background:#fff; color:var(--navy); border-radius:10px; padding:9px; font-size:11px; font-weight:800; }
+    .hero-game { width:185px; height:135px; right:12px; bottom:30px; transform:rotate(-6deg); z-index:6; padding:16px; }
+    .hero-game strong { font-family:"Plus Jakarta Sans"; color:var(--navy); }
+    .game-track { display:flex; gap:7px; margin-top:18px; }
+    .game-track i { width:27px; height:27px; border-radius:8px; background:var(--lavender); display:block; }
+    .game-track i:nth-child(2){background:var(--yellow)}.game-track i:nth-child(3){background:var(--mint)}.game-track i:nth-child(4){background:var(--cyan)}
+    .sticker { position:absolute; z-index:10; padding:10px 13px; background:#fff; border-radius:12px; box-shadow:var(--shadow-soft); font-weight:800; font-size:12px; }
+    .sticker.one { right:15px; top:35px; transform:rotate(5deg); }
+    .sticker.two { left:20px; bottom:90px; transform:rotate(-5deg); background:var(--yellow); color:var(--navy); }
+
+    /* STATS */
+    .stats { padding:0 0 60px; }
+    .stats-box { display:grid; grid-template-columns:repeat(4,1fr); background:var(--navy); border-radius:22px; overflow:hidden; }
+    .stat { padding:26px 22px; text-align:center; color:#fff; border-right:1px solid rgba(255,255,255,.13); }
+    .stat:last-child { border:0; }
+    .stat strong { display:block; font-family:"Plus Jakarta Sans"; font-size:27px; }
+    .stat span { color:#b9cbd7; font-size:12px; }
+
+    /* SECTIONS */
+    section.content-section { padding:92px 0; }
+    .section-head { display:flex; justify-content:space-between; align-items:end; gap:30px; margin-bottom:36px; }
+    .section-head h2 { font-size:clamp(32px,4vw,48px); margin:0; }
+    .section-head p { max-width:500px; color:var(--muted); margin:0; }
+    .center-head { text-align:center; display:block; }
+    .center-head p { margin:12px auto 0; }
+
+    /* CATEGORIES */
+    .categories { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+    .category {
+      position:relative; min-height:190px; padding:24px; border-radius:22px; overflow:hidden;
+      background:#fff; border:1px solid var(--line); transition:.22s ease;
+    }
+    .category:hover { transform:translateY(-5px); box-shadow:var(--shadow-soft); }
+    .category .icon { width:50px; height:50px; border-radius:15px; display:grid; place-items:center; font-size:24px; margin-bottom:25px; }
+    .category h3 { font-size:20px; margin:0 0 8px; }
+    .category p { margin:0; color:var(--muted); font-size:13px; }
+    .category .arrow { position:absolute; right:20px; bottom:18px; font-size:20px; color:var(--navy); }
+    .bg-yellow .icon{background:#fff0b8}.bg-cyan .icon{background:#d7f5f7}.bg-orange .icon{background:#ffe1d1}.bg-mint .icon{background:#dcf5ea}
+    .bg-lavender .icon{background:#ebe5fb}.bg-coral .icon{background:#ffe0dc}.bg-blue .icon{background:#dcecf7}.bg-lime .icon{background:#eaf5cf}
+
+    /* PRODUCTS */
+    .shop-toolbar { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:26px; }
+    .search { flex:1; min-width:230px; position:relative; }
+    .search input { width:100%; padding:14px 16px 14px 43px; border:1px solid var(--line); border-radius:13px; outline:none; background:#fff; }
+    .search input:focus { border-color:#a8b7c1; box-shadow:0 0 0 4px rgba(83,200,216,.12); }
+    .search-icon { position:absolute; left:15px; top:12px; color:#7b8b95; }
+    .filters { display:flex; gap:8px; flex-wrap:wrap; }
+    .filter { border:1px solid var(--line); background:#fff; padding:11px 14px; border-radius:11px; font-weight:700; font-size:12px; color:#657582; }
+    .filter.active,.filter:hover { background:var(--navy); color:#fff; border-color:var(--navy); }
+    .products { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; }
+    .product { background:#fff; border:1px solid var(--line); border-radius:20px; overflow:hidden; transition:.22s; }
+    .product:hover { transform:translateY(-5px); box-shadow:var(--shadow-soft); }
+    .product-img { aspect-ratio:1.25/1; padding:16px; background:#edf1ee; position:relative; }
+    .product-art { height:100%; border-radius:14px; display:flex; flex-direction:column; justify-content:space-between; padding:18px; overflow:hidden; }
+    .product-art small { font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
+    .product-art strong { font-family:"Plus Jakarta Sans"; font-size:23px; line-height:1.05; max-width:220px; }
+    .art-states { background:#d8f2f3; }.art-history { background:#ffe0cf; }.art-science { background:#e7e1fb; }
+    .art-spanish { background:#fff0b8; }.art-flash { background:#dff4e9; }.art-game { background:#dbe8f4; }
+    .product-badge { position:absolute; top:25px; right:25px; padding:6px 9px; border-radius:8px; background:#fff; font-size:10px; font-weight:800; color:var(--navy); }
+    .product-body { padding:19px; }
+    .product-meta { display:flex; justify-content:space-between; gap:10px; color:#74838d; font-size:11px; font-weight:700; margin-bottom:8px; }
+    .product h3 { margin:0 0 8px; font-size:18px; letter-spacing:-.025em; }
+    .product p { color:var(--muted); font-size:12px; min-height:58px; margin:0 0 16px; }
+    .product-footer { display:flex; align-items:center; justify-content:space-between; gap:10px; }
+    .price { font-family:"Plus Jakarta Sans"; color:var(--navy); font-size:18px; }
+    .product-link { padding:10px 13px; border-radius:10px; background:#f0f4f1; color:var(--navy); font-size:12px; font-weight:800; }
+    .product-link:hover { background:var(--navy); color:#fff; }
+    .empty { grid-column:1/-1; padding:50px; text-align:center; color:var(--muted); background:#fff; border:1px dashed #ccd5d0; border-radius:18px; }
+
+    /* VALUE */
+    .value-wrap { display:grid; grid-template-columns:.9fr 1.1fr; gap:65px; align-items:center; }
+    .value-visual { min-height:480px; background:#f3eee3; border-radius:30px; position:relative; overflow:hidden; }
+    .value-visual::before { content:""; position:absolute; width:270px; height:270px; background:var(--yellow); border-radius:50%; right:-80px; top:-70px; }
+    .value-note { position:absolute; background:#fff; border-radius:17px; padding:20px; box-shadow:var(--shadow); }
+    .note-a { left:45px; top:75px; width:250px; transform:rotate(-4deg); }
+    .note-b { right:35px; top:210px; width:245px; transform:rotate(5deg); }
+    .note-c { left:75px; bottom:45px; width:285px; transform:rotate(3deg); }
+    .value-note strong { display:block; font-family:"Plus Jakarta Sans"; color:var(--navy); margin-bottom:7px; }
+    .value-note span { color:var(--muted); font-size:12px; }
+    .value-list { display:grid; gap:16px; }
+    .benefit { display:grid; grid-template-columns:48px 1fr; gap:16px; padding:18px; border-radius:17px; background:#fff; border:1px solid var(--line); }
+    .benefit-num { width:48px; height:48px; border-radius:14px; display:grid; place-items:center; background:#eef4f1; font-weight:800; color:var(--navy); }
+    .benefit h3 { font-size:17px; margin:2px 0 5px; }
+    .benefit p { margin:0; color:var(--muted); font-size:13px; }
+
+    /* SHOWCASE */
+    .showcase { background:var(--navy); color:#fff; padding:92px 0; overflow:hidden; }
+    .showcase h2 { color:#fff; }
+    .showcase .section-head p { color:#bdccd5; }
+    .showcase-grid { display:grid; grid-template-columns:1fr 1.4fr; gap:60px; align-items:center; }
+    .showcase-list { display:grid; gap:12px; }
+    .showcase-item { display:flex; align-items:center; gap:15px; padding:15px 17px; border:1px solid rgba(255,255,255,.13); border-radius:15px; }
+    .showcase-item b { color:#fff; }
+    .showcase-item span { color:#aebfca; font-size:12px; }
+    .showcase-board { min-height:400px; position:relative; background:#e7dfcf; border-radius:28px; transform:rotate(1deg); }
+    .board-card { position:absolute; background:#fff; color:var(--navy); border-radius:14px; box-shadow:0 16px 35px rgba(0,0,0,.18); }
+    .board-card.a { width:235px; height:280px; left:60px; top:60px; transform:rotate(-7deg); padding:20px; }
+    .board-card.b { width:240px; height:210px; right:45px; top:45px; transform:rotate(7deg); padding:20px; }
+    .board-card.c { width:260px; height:155px; right:95px; bottom:35px; transform:rotate(-3deg); padding:20px; }
+    .board-card h3 { font-size:20px; margin:0 0 14px; }
+    .mini-row { display:grid; grid-template-columns:repeat(3,1fr); gap:7px; }
+    .mini-row i { height:48px; border-radius:8px; background:#dff1e8; }
+    .mini-row i:nth-child(2){background:#d5f1f3}.mini-row i:nth-child(3){background:#fff0b8}
+
+    /* SPOTLIGHT */
+    .spotlight { background:#fff; border:1px solid var(--line); border-radius:30px; overflow:hidden; display:grid; grid-template-columns:1fr 1fr; box-shadow:var(--shadow-soft); }
+    .spotlight-art { min-height:480px; padding:35px; background:#d8f2f3; display:grid; place-items:center; }
+    .spotlight-paper { width:min(330px,80%); background:#fff; border-radius:15px; box-shadow:0 22px 40px rgba(23,50,77,.18); transform:rotate(-4deg); overflow:hidden; }
+    .spotlight-paper .top { padding:24px; background:var(--cyan); }
+    .spotlight-paper .top strong { display:block; font-family:"Plus Jakarta Sans"; font-size:29px; line-height:1; }
+    .spotlight-paper .inside { padding:22px; }
+    .spotlight-paper .map { height:150px; border-radius:12px; background:#edf5f2; position:relative; overflow:hidden; }
+    .map::before { content:""; position:absolute; width:160px; height:100px; background:var(--mint); border-radius:48% 52% 40% 60%; left:72px; top:25px; transform:rotate(-14deg); }
+    .map::after { content:"USA"; position:absolute; left:127px; top:66px; font-weight:800; color:var(--navy); }
+    .spotlight-copy { padding:55px; }
+    .tag { color:#43846a; font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.1em; }
+    .spotlight-copy h2 { font-size:40px; margin:11px 0 15px; }
+    .spotlight-copy p { color:var(--muted); }
+    .checklist { display:grid; gap:9px; margin:25px 0; }
+    .checklist div { font-size:13px; font-weight:600; }
+    .checklist div::before { content:"✓"; color:#4eaa82; font-weight:900; margin-right:9px; }
+    .price-big { font-family:"Plus Jakarta Sans"; font-size:25px; color:var(--navy); margin-bottom:18px; }
+
+    /* FORMATS */
+    .formats { display:grid; grid-template-columns:repeat(3,1fr); gap:17px; }
+    .format { min-height:220px; padding:26px; border-radius:22px; border:1px solid var(--line); background:#fff; position:relative; overflow:hidden; }
+    .format::after { content:""; position:absolute; width:130px; height:130px; border-radius:50%; right:-40px; bottom:-45px; background:var(--yellow); opacity:.55; }
+    .format:nth-child(2)::after{background:var(--cyan)} .format:nth-child(3)::after{background:var(--coral)}
+    .format:nth-child(4)::after{background:var(--mint)} .format:nth-child(5)::after{background:var(--lavender)} .format:nth-child(6)::after{background:var(--lime)}
+    .format-num { font-size:11px; font-weight:800; color:#7d8c95; }
+    .format h3 { margin:28px 0 8px; font-size:21px; }
+    .format p { color:var(--muted); font-size:13px; max-width:230px; }
+
+    /* FREEBIE */
+    .freebie { background:#fff0b8; border-radius:30px; padding:52px; display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:40px; overflow:hidden; }
+    .freebie h2 { font-size:43px; margin:12px 0; }
+    .freebie p { max-width:520px; color:#5f5d4d; }
+    .free-card { justify-self:center; width:290px; height:250px; background:#fff; border-radius:18px; padding:23px; box-shadow:0 22px 45px rgba(99,80,23,.16); transform:rotate(4deg); }
+    .free-card .mini-label { font-size:10px; font-weight:800; text-transform:uppercase; color:#5b7769; }
+    .free-card h3 { font-size:27px; margin:12px 0; }
+    .free-card .stars { font-size:22px; letter-spacing:4px; }
+    .free-card small { display:block; margin-top:20px; color:var(--muted); }
+
+    /* AUDIENCE */
+    .audience { display:grid; grid-template-columns:repeat(4,1fr); gap:15px; }
+    .aud { text-align:center; padding:28px 18px; border-radius:19px; background:#fff; border:1px solid var(--line); }
+    .aud .circle { width:62px; height:62px; margin:0 auto 14px; border-radius:50%; display:grid; place-items:center; background:#eaf2ee; font-size:25px; }
+    .aud h3 { font-size:16px; margin:0 0 5px; }
+    .aud p { margin:0; color:var(--muted); font-size:11px; }
+
+    /* ABOUT / FINAL */
+    .about { max-width:760px; margin:auto; text-align:center; }
+    .about h2 { font-size:45px; }
+    .about p { color:var(--muted); font-size:16px; }
+    .final-cta { margin-top:30px; background:var(--navy); border-radius:30px; padding:65px 30px; text-align:center; position:relative; overflow:hidden; }
+    .final-cta::before,.final-cta::after { content:""; position:absolute; border-radius:50%; opacity:.9; }
+    .final-cta::before { width:180px; height:180px; background:var(--yellow); left:-70px; top:-75px; }
+    .final-cta::after { width:150px; height:150px; background:var(--cyan); right:-55px; bottom:-65px; }
+    .final-cta h2 { color:#fff; font-size:44px; max-width:720px; margin:0 auto 15px; }
+    .final-cta p { color:#c2d0d8; max-width:560px; margin:0 auto 26px; }
+    .final-cta .btn-primary { background:var(--yellow); color:var(--navy); position:relative; z-index:2; }
+
+    /* FOOTER */
+    footer { padding:38px 0; border-top:1px solid var(--line); }
+    .footer-inner { display:flex; justify-content:space-between; gap:25px; align-items:center; }
+    .footer-copy { color:#81909a; font-size:11px; }
+    .footer-links { display:flex; gap:18px; font-size:12px; font-weight:700; color:#62727d; }
+
+    /* REVEAL */
+    .reveal { opacity:0; transform:translateY(18px); transition:opacity .6s ease,transform .6s ease; }
+    .reveal.visible { opacity:1; transform:none; }
+
+    @media (max-width: 980px) {
+      .nav-links { display:none; position:absolute; top:76px; left:0; right:0; background:var(--paper); padding:18px 20px 24px; border-bottom:1px solid var(--line); flex-direction:column; align-items:stretch; }
+      .nav-links.open { display:flex; }
+      .nav-cta { display:none; }
+      .menu-btn { display:block; }
+      .hero-grid,.value-wrap,.showcase-grid { grid-template-columns:1fr; }
+      .hero { padding-top:55px; }
+      .hero-visual { max-width:650px; width:100%; margin:auto; }
+      .categories { grid-template-columns:repeat(2,1fr); }
+      .products { grid-template-columns:repeat(2,1fr); }
+      .stats-box { grid-template-columns:repeat(2,1fr); }
+      .stat:nth-child(2) { border-right:0; }
+      .stat:nth-child(-n+2) { border-bottom:1px solid rgba(255,255,255,.13); }
+      .spotlight { grid-template-columns:1fr; }
+      .formats { grid-template-columns:repeat(2,1fr); }
+      .audience { grid-template-columns:repeat(2,1fr); }
+    }
+
+    @media (max-width: 640px) {
+      .container { width:min(var(--max),calc(100% - 28px)); }
+      .hero { padding:42px 0 40px; }
+      h1 { font-size:43px; }
+      .hero-copy { font-size:16px; }
+      .hero-visual { min-height:430px; transform:scale(.82); transform-origin:top center; margin-bottom:-70px; }
+      .categories,.products,.formats { grid-template-columns:1fr; }
+      .stats-box { grid-template-columns:1fr 1fr; }
+      .stat { padding:20px 10px; }
+      .stat strong { font-size:21px; }
+      section.content-section { padding:68px 0; }
+      .section-head { display:block; }
+      .section-head h2 { margin-bottom:12px; }
+      .spotlight-copy { padding:32px 24px; }
+      .spotlight-copy h2 { font-size:32px; }
+      .spotlight-art { min-height:380px; }
+      .freebie { grid-template-columns:1fr; padding:35px 24px; }
+      .freebie h2 { font-size:34px; }
+      .free-card { width:255px; }
+      .audience { grid-template-columns:1fr 1fr; }
+      .about h2,.final-cta h2 { font-size:34px; }
+      .final-cta { padding:48px 22px; }
+      .footer-inner { flex-direction:column; align-items:flex-start; }
+      .footer-links { flex-wrap:wrap; }
+    }
+  </style>
 </head>
+
 <body>
-
-  <header class="sitio">
-    <div class="contenedor">
-      <a href="#" class="marca">Scholar Packs</a>
-      <nav style="display:flex; gap:18px; align-items:center;">
-        <a href="../es/index.html" hreflang="es" style="font-size:0.85rem;">ES</a>
-        <a href="[LINK_TPT_TIENDA]" target="_blank">View store on TPT →</a>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero">
-    <div class="contenedor">
-      <div class="hero-texto">
-        <p class="hero-eyebrow">History &amp; social studies resources, ready for class</p>
-        <h1>Resources your students will ask to use again</h1>
-        <p class="sub">History comics, flashcards and activities made by teachers who also teach — not pretty designs that never get printed.</p>
-        <div class="hero-ctas">
-          <a href="[LINK_TPT_TIENDA]" class="boton boton-primario" target="_blank">Browse resources on TPT</a>
-          <a href="#free" class="boton boton-secundario">Try a free one first</a>
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Scholar Packs home">
+        <div class="brand-mark"><span>SP</span></div>
+        <div class="brand-text">
+          <div class="brand-name">SCHOLAR PACKS</div>
+          <div class="brand-tag">Creative resources for curious minds</div>
         </div>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#resources">Resources</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#why">Why Scholar Packs</a>
+        <a href="#freebies">Free Resources</a>
+        <a href="#about">About</a>
       </div>
 
-      <div class="hero-visual" aria-hidden="true">
-        <div class="flashcard c1">Comic: Westward Expansion</div>
-        <div class="flashcard c2">Flashcards: Civil War</div>
-        <div class="flashcard c3">Extraordinary People</div>
-      </div>
+      <a href="../es/index.html" hreflang="es" style="font-size:13px;font-weight:700;color:#4f6170;">ES</a>
+      <a class="nav-cta" href="https://www.teacherspayteachers.com/store/scholar-packs" target="_blank" rel="noopener">
+        Shop on TPT →
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
     </div>
-  </section>
+  </nav>
 
-  <section class="confianza">
-    <div class="contenedor">
-      <ul>
-        <li><strong>670+</strong><span>resources published</span></li>
-        <li><strong>4.81 ★</strong><span>average rating</span></li>
-        <li><strong>420+</strong><span>teachers following us</span></li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="beneficios">
-    <div class="contenedor">
-      <div class="titulo-seccion">
-        <h2>Made so you can walk into class without breaking a sweat</h2>
-        <p>Every resource is tested in a real classroom before it goes up in the store.</p>
-      </div>
-      <div class="beneficios-grid">
-        <div class="beneficio">
-          <h3>Print-and-go</h3>
-          <p>Open the PDF, print, done. No spending your weekend on layout.</p>
-        </div>
-        <div class="beneficio">
-          <h3>Tested with real students</h3>
-          <p>Not just designed on a screen — refined after actually being used in class.</p>
-        </div>
-        <div class="beneficio">
-          <h3>A level for every student</h3>
-          <p>Color and black &amp; white versions, easy and advanced levels, in the same pack.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="productos">
-    <div class="contenedor">
-      <div class="titulo-seccion">
-        <h2>Some of the most popular packs</h2>
-        <p>The full collection is available in the TPT store.</p>
-      </div>
-      <div class="productos-grid">
-        <div class="producto-card">
-          <div class="producto-imagen">
-            <span class="cinta">Bestseller</span>
-            [PRODUCT_IMAGE_1]
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="reveal">
+          <span class="eyebrow"><i class="eyebrow-dot"></i> Made for teachers</span>
+          <h1>Make learning <em>more engaging.</em></h1>
+          <p class="hero-copy">
+            Creative, visual educational resources designed to make teaching easier,
+            lessons more memorable, and students more curious.
+          </p>
+          <div class="hero-actions">
+            <a class="btn-primary" href="#resources">Explore resources ↓</a>
+            <a class="btn-secondary" href="https://www.teacherspayteachers.com/store/scholar-packs" target="_blank" rel="noopener">
+              Visit our TPT store ↗
+            </a>
           </div>
-          <div class="producto-info">
-            <h3>Westward Expansion — Comic Strips</h3>
-            <span class="producto-precio">$4.50</span>
-            <a href="[LINK_PRODUCTO_1]" class="boton" target="_blank">View on TPT</a>
+          <div class="trust-row">
+            <span>600+ resources</span>
+            <span>Print &amp; digital</span>
+            <span>Teacher-friendly</span>
           </div>
         </div>
-        <div class="producto-card">
-          <div class="producto-imagen">[PRODUCT_IMAGE_2]</div>
-          <div class="producto-info">
-            <h3>Civil War Flashcards Bundle</h3>
-            <span class="producto-precio">$12.00</span>
-            <a href="[LINK_PRODUCTO_2]" class="boton" target="_blank">View on TPT</a>
+
+        <div class="hero-visual reveal" aria-label="Scholar Packs resource showcase">
+          <div class="desk"></div>
+          <div class="paper-card hero-flash">
+            <div class="flash-head"><div class="globe"></div></div>
+            <div class="flash-body">
+              <strong>50 U.S. States</strong>
+              <div style="color:#71808a;font-size:11px;margin-top:6px">Fast Facts • Geography</div>
+            </div>
+          </div>
+          <div class="paper-card hero-sheet">
+            <div class="sheet-top"><strong>Explore. Learn.</strong><small>Activity Pack</small></div>
+            <div class="sheet-body">
+              <div class="fake-lines"><i></i><i></i><i></i><i></i></div>
+              <div class="state-grid"><b>MAP</b><b>FACTS</b><b>QUIZ</b><b>WORDS</b><b>GAME</b><b>RESEARCH</b></div>
+            </div>
+          </div>
+          <div class="paper-card hero-book">
+            <div class="book-cover">
+              <small>History • Stories</small>
+              <h3>Learn through visual storytelling.</h3>
+              <div class="comic-box">COMICS · CHARACTERS · EVENTS</div>
+            </div>
+          </div>
+          <div class="paper-card hero-game">
+            <strong>Classroom Games</strong>
+            <div class="game-track"><i></i><i></i><i></i><i></i></div>
+            <small style="display:block;color:#73828b;margin-top:10px">Play • Learn • Remember</small>
+          </div>
+          <div class="sticker one">Print + Digital ✦</div>
+          <div class="sticker two">Teacher-ready</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-box reveal">
+          <div class="stat"><strong>600+</strong><span>Educational resources</span></div>
+          <div class="stat"><strong>Many</strong><span>Subjects &amp; formats</span></div>
+          <div class="stat"><strong>1–12+</strong><span>Grades covered</span></div>
+          <div class="stat"><strong>Print +</strong><span>Digital options</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATEGORIES -->
+    <section class="content-section" id="subjects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="tag">Explore by subject</span>
+            <h2>Find the right resource<br>for your classroom.</h2>
+          </div>
+          <p>From U.S. geography to science, history, Spanish and games — discover resources built around active learning.</p>
+        </div>
+
+        <div class="categories">
+          <a class="category bg-yellow reveal" href="#resources" data-category="Geography">
+            <div class="icon">🌎</div><h3>Geography</h3><p>States, countries, maps, cultures and more.</p><span class="arrow">↗</span>
+          </a>
+          <a class="category bg-orange reveal" href="#resources" data-category="History">
+            <div class="icon">📜</div><h3>U.S. History</h3><p>Visual stories, people, events and activities.</p><span class="arrow">↗</span>
+          </a>
+          <a class="category bg-lavender reveal" href="#resources" data-category="Science">
+            <div class="icon">🔬</div><h3>Science</h3><p>Concepts, study resources and classroom activities.</p><span class="arrow">↗</span>
+          </a>
+          <a class="category bg-mint reveal" href="#resources" data-category="Spanish">
+            <div class="icon">💬</div><h3>Spanish</h3><p>Vocabulary, flashcards and engaging activities.</p><span class="arrow">↗</span>
+          </a>
+          <a class="category bg-cyan reveal" href="#resources" data-category="Flashcards">
+            <div class="icon">🃏</div><h3>Flashcards</h3><p>Visual cards for learning and reinforcement.</p><span class="arrow">↗</span>
+          </a>
+          <a class="category bg-coral reveal" href="#resources" data-category="Games">
+            <div class="icon">🎲</div><h3>Games</h3><p>Turn review time into active learning.</p><span class="arrow">↗</span>
+          </a>
+          <a class="category bg-blue reveal" href="#resources" data-category="Worksheets">
+            <div class="icon">📝</div><h3>Worksheets</h3><p>Activities, puzzles, practice and research.</p><span class="arrow">↗</span>
+          </a>
+          <a class="category bg-lime reveal" href="#resources" data-category="Stories">
+            <div class="icon">📚</div><h3>Comics &amp; Stories</h3><p>Make complex topics easier to explore visually.</p><span class="arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="content-section" id="resources" style="background:#f5f6f2;">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="tag">Shop the collection</span>
+            <h2>Teacher favorites.</h2>
+          </div>
+          <p>Browse a selection of Scholar Packs resources. Every product links directly to its listing on Teachers Pay Teachers.</p>
+        </div>
+
+        <div class="shop-toolbar reveal">
+          <div class="search">
+            <span class="search-icon">⌕</span>
+            <input id="searchInput" type="search" placeholder="Search resources..." aria-label="Search resources">
+          </div>
+          <div class="filters" id="filters"></div>
+        </div>
+
+        <div class="products" id="products"></div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="content-section" id="why">
+      <div class="container value-wrap">
+        <div class="value-visual reveal">
+          <div class="value-note note-a">
+            <strong>Rich visual resources</strong>
+            <span>Illustrations, flashcards, stories, games and activities designed to invite exploration.</span>
+          </div>
+          <div class="value-note note-b">
+            <strong>More than worksheets.</strong>
+            <span>Use resources for lessons, centers, homework, independent work or reinforcement.</span>
+          </div>
+          <div class="value-note note-c">
+            <strong>Built around learning.</strong>
+            <span>Flexible materials that help turn information into memorable classroom experiences.</span>
           </div>
         </div>
-        <div class="producto-card">
-          <div class="producto-imagen">[PRODUCT_IMAGE_3]</div>
-          <div class="producto-info">
-            <h3>Extraordinary People — Full Series</h3>
-            <span class="producto-precio">$19.00</span>
-            <a href="[LINK_PRODUCTO_3]" class="boton" target="_blank">View on TPT</a>
-          </div>
-        </div>
-        <div class="producto-card">
-          <div class="producto-imagen">[PRODUCT_IMAGE_4]</div>
-          <div class="producto-info">
-            <h3>Founding Fathers Playing Cards</h3>
-            <span class="producto-precio">$6.50</span>
-            <a href="[LINK_PRODUCTO_4]" class="boton" target="_blank">View on TPT</a>
+
+        <div class="reveal">
+          <span class="tag">Why Scholar Packs</span>
+          <h2 style="font-size:46px;margin:12px 0 18px;">Resources that give teachers more ways to teach.</h2>
+          <p style="color:var(--muted);">Scholar Packs combines visual design with practical classroom activities, giving teachers more than a stack of printable pages.</p>
+
+          <div class="value-list" style="margin-top:25px;">
+            <div class="benefit"><div class="benefit-num">01</div><div><h3>Engaging activities</h3><p>Games, puzzles, research tasks and hands-on activities that encourage participation.</p></div></div>
+            <div class="benefit"><div class="benefit-num">02</div><div><h3>Visual learning</h3><p>Flashcards, illustrations, comics and structured layouts make information easier to explore.</p></div></div>
+            <div class="benefit"><div class="benefit-num">03</div><div><h3>Flexible classroom use</h3><p>Adapt resources for whole-class lessons, centers, independent work or homework.</p></div></div>
+            <div class="benefit"><div class="benefit-num">04</div><div><h3>Print &amp; digital</h3><p>Selected resources include digital-friendly formats for flexible teaching environments.</p></div></div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="gratis" id="free">
-    <div class="contenedor">
+    <!-- SHOWCASE -->
+    <section class="showcase">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="tag" style="color:#7fd8c0;">Inside the packs</span>
+            <h2>From first lesson<br>to final activity.</h2>
+          </div>
+          <p>Show teachers the depth of the resources — not just the cover. Explore different formats and ways to use them.</p>
+        </div>
+
+        <div class="showcase-grid">
+          <div class="showcase-list reveal">
+            <div class="showcase-item"><b>01</b><div><b>Flashcards</b><br><span>Multiple sizes and visual reinforcement.</span></div></div>
+            <div class="showcase-item"><b>02</b><div><b>Worksheets</b><br><span>Practice, puzzles, research and review.</span></div></div>
+            <div class="showcase-item"><b>03</b><div><b>Games</b><br><span>Make review active and memorable.</span></div></div>
+            <div class="showcase-item"><b>04</b><div><b>Stories &amp; comics</b><br><span>Visual storytelling for complex topics.</span></div></div>
+            <div class="showcase-item"><b>05</b><div><b>Digital activities</b><br><span>Selected resources include digital options.</span></div></div>
+          </div>
+
+          <div class="showcase-board reveal">
+            <div class="board-card a"><h3>Flashcards</h3><div class="mini-row"><i></i><i></i><i></i></div><p style="font-size:11px;color:#77858e;">Large · Medium · Small</p></div>
+            <div class="board-card b"><h3>Activities</h3><div class="fake-lines"><i></i><i></i><i></i></div></div>
+            <div class="board-card c"><h3>Learn by playing</h3><div class="mini-row"><i></i><i></i><i></i></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SPOTLIGHT -->
+    <section class="content-section">
+      <div class="container">
+        <div class="spotlight reveal">
+          <div class="spotlight-art">
+            <div class="spotlight-paper">
+              <div class="top"><strong>50 US<br>STATES</strong><span style="font-size:11px;font-weight:800;">FAST FACTS</span></div>
+              <div class="inside"><div class="map"></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px;"><div style="height:35px;border-radius:7px;background:#eef4ef;"></div><div style="height:35px;border-radius:7px;background:#fff0b8;"></div></div></div>
+            </div>
+          </div>
+          <div class="spotlight-copy">
+            <span class="tag">Featured resource</span>
+            <h2>Explore the 50 U.S. States.</h2>
+            <p>A visual, activity-rich way to explore geography and state facts through practice, puzzles, research and reinforcement.</p>
+            <div class="checklist">
+              <div>Fast facts and state information</div>
+              <div>Word searches, crosswords and unscrambles</div>
+              <div>Labeling and research activities</div>
+              <div>Visual learning and review activities</div>
+              <div>Print-friendly and digital options where included</div>
+            </div>
+            <div class="price-big">$2.50</div>
+            <a class="btn-primary" href="https://www.teacherspayteachers.com/store/scholar-packs" target="_blank" rel="noopener">View on Teachers Pay Teachers ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMATS -->
+    <section class="content-section" style="background:#f5f6f2;">
+      <div class="container">
+        <div class="section-head center-head reveal">
+          <span class="tag">Choose your format</span>
+          <h2>Teach it your way.</h2>
+          <p>Discover different resource formats depending on the lesson, topic and learning goal.</p>
+        </div>
+
+        <div class="formats">
+          <div class="format reveal"><span class="format-num">01</span><h3>Flashcards</h3><p>Visual cards for introducing, reinforcing and reviewing key information.</p></div>
+          <div class="format reveal"><span class="format-num">02</span><h3>Games</h3><p>Interactive formats that make practice feel less like practice.</p></div>
+          <div class="format reveal"><span class="format-num">03</span><h3>Worksheets</h3><p>Structured activities for independent work and classroom practice.</p></div>
+          <div class="format reveal"><span class="format-num">04</span><h3>Comics</h3><p>Visual storytelling that brings historical people and events to life.</p></div>
+          <div class="format reveal"><span class="format-num">05</span><h3>Storybooks</h3><p>Illustrated learning experiences for exploring people, places and ideas.</p></div>
+          <div class="format reveal"><span class="format-num">06</span><h3>Projects</h3><p>Creative tasks that encourage research, discovery and active learning.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FREEBIES -->
+    <section class="content-section" id="freebies">
+      <div class="container">
+        <div class="freebie reveal">
+          <div>
+            <span class="tag">Start for free</span>
+            <h2>Try something free.</h2>
+            <p>Not sure where to start? Explore free Scholar Packs resources on TPT and get a feel for the visual, activity-rich approach.</p>
+            <a class="btn-primary" href="https://www.teacherspayteachers.com/store/scholar-packs" target="_blank" rel="noopener">Explore free resources ↗</a>
+          </div>
+          <div class="free-card">
+            <span class="mini-label">Scholar Packs · Free Resource</span>
+            <h3>50 U.S. States</h3>
+            <div class="stars">★★★★★</div>
+            <small>Explore free resources and discover more on Teachers Pay Teachers.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUDIENCE -->
+    <section class="content-section">
+      <div class="container">
+        <div class="section-head center-head reveal">
+          <span class="tag">Made for learning</span>
+          <h2>Built for real classrooms.</h2>
+          <p>Flexible resources for different teaching and learning environments.</p>
+        </div>
+        <div class="audience">
+          <div class="aud reveal"><div class="circle">👩‍🏫</div><h3>Teachers</h3><p>Classroom lessons, centers and review.</p></div>
+          <div class="aud reveal"><div class="circle">🏠</div><h3>Homeschoolers</h3><p>Flexible activities for learning at home.</p></div>
+          <div class="aud reveal"><div class="circle">✏️</div><h3>Tutors</h3><p>Visual materials for focused practice.</p></div>
+          <div class="aud reveal"><div class="circle">🎓</div><h3>Students</h3><p>Resources designed to encourage curiosity.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="content-section" id="about">
+      <div class="container">
+        <div class="about reveal">
+          <span class="tag">About Scholar Packs</span>
+          <h2>Make learning memorable.</h2>
+          <p>Scholar Packs creates visual and practical educational resources across subjects and formats — from flashcards and worksheets to games, stories, comics and classroom activities.</p>
+          <a class="btn-secondary" href="https://www.teacherspayteachers.com/store/scholar-packs" target="_blank" rel="noopener">Discover all resources ↗</a>
+        </div>
+
+        <div class="final-cta reveal">
+          <h2>Ready to make your next lesson more engaging?</h2>
+          <p>Explore the Scholar Packs collection and find resources to bring more visual, active learning into your classroom.</p>
+          <a class="btn-primary" href="https://www.teacherspayteachers.com/store/scholar-packs" target="_blank" rel="noopener">Explore Scholar Packs on TPT →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
       <div>
-        <h2>Try it before you buy it</h2>
-        <p>Grab a free mini history activity and get notified when new resources come out. No spam, promise.</p>
+        <div class="brand-name" style="font-family:'Plus Jakarta Sans';font-weight:800;color:var(--navy);">SCHOLAR PACKS</div>
+        <div class="footer-copy">Creative resources for curious minds.</div>
       </div>
-      <form class="formulario-email" action="[FORMULARIO_EMAIL]" method="POST">
-        <label for="name">Your name</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Your email</label>
-        <input type="email" id="email" name="email" required>
-        <button type="submit" class="boton boton-primario">Send me the free resource</button>
-      </form>
-    </div>
-  </section>
-
-  <section class="testimonios">
-    <div class="contenedor">
-      <div class="titulo-seccion">
-        <h2>What other teachers say</h2>
-      </div>
-      <div class="corcho">
-        <div class="nota">
-          <div class="estrellas">★★★★★</div>
-          <p class="cita">"My 5th graders asked to make more comics like these. A regular worksheet never gets that reaction."</p>
-          <div class="autor">Sarah M. — Social Studies teacher</div>
-        </div>
-        <div class="nota">
-          <div class="estrellas">★★★★★</div>
-          <p class="cita">"The black and white version cuts my classroom printer ink usage in half."</p>
-          <div class="autor">Carlos R. — 4th grade</div>
-        </div>
-        <div class="nota">
-          <div class="estrellas">★★★★★</div>
-          <p class="cita">"Finally history material that doesn't look like it came from an old textbook."</p>
-          <div class="autor">Elena T. — Middle school teacher</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-final">
-    <div class="contenedor">
-      <h2>Your next class could be the one they remember most</h2>
-      <a href="[LINK_TPT_TIENDA]" class="boton boton-primario" target="_blank">Explore the full store</a>
-    </div>
-  </section>
-
-  <footer class="sitio">
-    <div class="contenedor">
-      <span>© <span id="anio"></span> Scholar Packs</span>
-      <nav>
-        <a href="[LINK_TPT_TIENDA]" target="_blank">TPT</a>
-        <a href="[LINK_PINTEREST]" target="_blank">Pinterest</a>
-        <a href="[LINK_INSTAGRAM]" target="_blank">Instagram</a>
+      <div class="footer-links">
+        <a href="#resources">Resources</a>
+        <a href="#subjects">Subjects</a>
+        <a href="#freebies">Free Resources</a>
+        <a href="https://www.teacherspayteachers.com/store/scholar-packs" target="_blank" rel="noopener">TPT Store ↗</a>
         <a href="../es/index.html" hreflang="es">Español</a>
-      </nav>
+      </div>
+      <div class="footer-copy">© 2026 Scholar Packs</div>
     </div>
   </footer>
 
-  <script>document.getElementById('anio').textContent = new Date().getFullYear();</script>
+  <script>
+    /*
+      ============================================================
+      SCHOLAR PACKS PRODUCT DATA
+      Replace the demo URLs/images with the real TPT URLs/assets.
+      ============================================================
+    */
+    const products = [
+      {
+        id: 1,
+        title: "50 US States. Fast Facts Set II",
+        category: "Geography",
+        subject: "Geography",
+        grades: "Grades 1–7",
+        price: "$2.50",
+        description: "Fast facts, puzzles, research activities and visual practice for learning the 50 U.S. states.",
+        url: "https://www.teacherspayteachers.com/store/scholar-packs",
+        art: "art-states",
+        label: "GEOGRAPHY"
+      },
+      {
+        id: 2,
+        title: "The Westward Expansion. Comic Strips",
+        category: "History",
+        subject: "History",
+        grades: "Grades 3–7",
+        price: "$6.00",
+        description: "A visual collection of comic strips exploring people, journeys, events and territories.",
+        url: "https://www.teacherspayteachers.com/store/scholar-packs",
+        art: "art-history",
+        label: "U.S. HISTORY"
+      },
+      {
+        id: 3,
+        title: "Periodic Table of the Elements. Wok-Book",
+        category: "Science",
+        subject: "Science",
+        grades: "Grades 5–10+",
+        price: "$4.25",
+        description: "A large visual resource covering chemistry and science topics with activities and practice.",
+        url: "https://www.teacherspayteachers.com/store/scholar-packs",
+        art: "art-science",
+        label: "SCIENCE"
+      },
+      {
+        id: 4,
+        title: "Países y Nacionalidades I",
+        category: "Spanish",
+        subject: "Spanish",
+        grades: "Grades 1–6",
+        price: "$2.00",
+        description: "Visual activities, flashcard reinforcement, matching, puzzles and vocabulary practice.",
+        url: "https://www.teacherspayteachers.com/store/scholar-packs",
+        art: "art-spanish",
+        label: "SPANISH"
+      },
+      {
+        id: 5,
+        title: "School Subjects FlashCards B&W",
+        category: "Flashcards",
+        subject: "Flashcards",
+        grades: "Multiple grades",
+        price: "See TPT",
+        description: "Large visual flashcards, silhouettes and reinforcement games for school subjects.",
+        url: "https://www.teacherspayteachers.com/store/scholar-packs",
+        art: "art-flash",
+        label: "FLASHCARDS"
+      },
+      {
+        id: 6,
+        title: "Playing Card Game. Writers Set 01",
+        category: "Games",
+        subject: "Literature",
+        grades: "Multiple grades",
+        price: "See TPT",
+        description: "A 52-card educational game featuring writers, creative play and literature learning.",
+        url: "https://www.teacherspayteachers.com/store/scholar-packs",
+        art: "art-game",
+        label: "GAME"
+      }
+    ];
 
+    const categories = ["All", ...new Set(products.map(p => p.category))];
+    let activeCategory = "All";
+    let query = "";
+
+    const productsEl = document.getElementById("products");
+    const filtersEl = document.getElementById("filters");
+    const searchInput = document.getElementById("searchInput");
+
+    function renderFilters() {
+      filtersEl.innerHTML = categories.map(category => `
+        <button class="filter ${category === activeCategory ? "active" : ""}"
+          type="button" data-filter="${category}">
+          ${category}
+        </button>
+      `).join("");
+
+      filtersEl.querySelectorAll(".filter").forEach(button => {
+        button.addEventListener("click", () => {
+          activeCategory = button.dataset.filter;
+          renderFilters();
+          renderProducts();
+        });
+      });
+    }
+
+    function renderProducts() {
+      const filtered = products.filter(product => {
+        const categoryMatch = activeCategory === "All" || product.category === activeCategory;
+        const text = `${product.title} ${product.category} ${product.subject} ${product.grades}`.toLowerCase();
+        return categoryMatch && text.includes(query.toLowerCase());
+      });
+
+      if (!filtered.length) {
+        productsEl.innerHTML = `<div class="empty">No resources found. Try another search or category.</div>`;
+        return;
+      }
+
+      productsEl.innerHTML = filtered.map(product => `
+        <article class="product reveal visible">
+          <div class="product-img">
+            <div class="product-art ${product.art}">
+              <small>${product.label}</small>
+              <strong>${product.title}</strong>
+            </div>
+            <span class="product-badge">${product.grades}</span>
+          </div>
+          <div class="product-body">
+            <div class="product-meta"><span>${product.subject}</span><span>${product.grades}</span></div>
+            <h3>${product.title}</h3>
+            <p>${product.description}</p>
+            <div class="product-footer">
+              <span class="price">${product.price}</span>
+              <a class="product-link" href="${product.url}" target="_blank" rel="noopener">View on TPT ↗</a>
+            </div>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    searchInput.addEventListener("input", e => {
+      query = e.target.value.trim();
+      renderProducts();
+    });
+
+    document.querySelectorAll(".category[data-category]").forEach(card => {
+      card.addEventListener("click", e => {
+        activeCategory = card.dataset.category;
+        renderFilters();
+        renderProducts();
+      });
+    });
+
+    renderFilters();
+    renderProducts();
+
+    // Mobile navigation
+    const menuBtn = document.getElementById("menuBtn");
+    const navLinks = document.getElementById("navLinks");
+
+    menuBtn.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+      menuBtn.textContent = navLinks.classList.contains("open") ? "×" : "☰";
+    });
+
+    navLinks.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        menuBtn.textContent = "☰";
+      });
+    });
+
+    // Subtle reveal-on-scroll animation
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+
+    document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>

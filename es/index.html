@@ -230,6 +230,10 @@
     .product-art { height:100%; border-radius:14px; display:flex; flex-direction:column; justify-content:space-between; padding:18px; overflow:hidden; }
     .product-art small { font-weight:800; text-transform:uppercase; letter-spacing:.08em; }
     .product-art strong { font-family:"Plus Jakarta Sans"; font-size:23px; line-height:1.05; max-width:220px; }
+    /* Foto real de producto (sustituye a la tarjeta de color cuando hay imagen) */
+    .product-photo { width:100%; height:100%; object-fit:cover; border-radius:14px; display:block; }
+    .product-label { position:absolute; left:24px; bottom:24px; background:rgba(23,50,77,0.88); color:#fff;
+      font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; padding:6px 10px; border-radius:8px; }
     .art-states { background:#d8f2f3; }.art-history { background:#ffe0cf; }.art-science { background:#e7e1fb; }
     .art-spanish { background:#fff0b8; }.art-flash { background:#dff4e9; }.art-game { background:#dbe8f4; }
     .product-badge { position:absolute; top:25px; right:25px; padding:6px 9px; border-radius:8px; background:#fff; font-size:10px; font-weight:800; color:var(--navy); }
@@ -753,6 +757,7 @@
         description: "Fast facts, puzzles, research activities and visual practice for learning the 50 U.S. states.",
         url: "https://www.teacherspayteachers.com/store/scholar-packs",
         art: "art-states",
+        image: "../assets/products/50-us-states.jpg",
         label: "GEOGRAPHY"
       },
       {
@@ -765,6 +770,7 @@
         description: "A visual collection of comic strips exploring people, journeys, events and territories.",
         url: "https://www.teacherspayteachers.com/store/scholar-packs",
         art: "art-history",
+        image: "../assets/products/westward-expansion.jpg",
         label: "U.S. HISTORY"
       },
       {
@@ -777,6 +783,7 @@
         description: "A large visual resource covering chemistry and science topics with activities and practice.",
         url: "https://www.teacherspayteachers.com/store/scholar-packs",
         art: "art-science",
+        image: "../assets/products/periodic-table.jpg",
         label: "SCIENCE"
       },
       {
@@ -789,6 +796,7 @@
         description: "Visual activities, flashcard reinforcement, matching, puzzles and vocabulary practice.",
         url: "https://www.teacherspayteachers.com/store/scholar-packs",
         art: "art-spanish",
+        image: "../assets/products/paises-nacionalidades.jpg",
         label: "SPANISH"
       },
       {
@@ -801,6 +809,7 @@
         description: "Large visual flashcards, silhouettes and reinforcement games for school subjects.",
         url: "https://www.teacherspayteachers.com/store/scholar-packs",
         art: "art-flash",
+        image: "../assets/products/school-subjects-flashcards.jpg",
         label: "FLASHCARDS"
       },
       {
@@ -813,6 +822,7 @@
         description: "A 52-card educational game featuring writers, creative play and literature learning.",
         url: "https://www.teacherspayteachers.com/store/scholar-packs",
         art: "art-game",
+        image: "../assets/products/writers-card-game.jpg",
         label: "GAME"
       }
     ];
@@ -857,10 +867,8 @@
       productsEl.innerHTML = filtered.map(product => `
         <article class="product reveal visible">
           <div class="product-img">
-            <div class="product-art ${product.art}">
-              <small>${product.label}</small>
-              <strong>${product.title}</strong>
-            </div>
+            <img class="product-photo" src="${product.image}" alt="${product.title}" loading="lazy">
+            <span class="product-label">${product.label}</span>
             <span class="product-badge">${product.grades}</span>
           </div>
           <div class="product-body">

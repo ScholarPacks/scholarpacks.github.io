@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scholar Packs</title>
+<link rel="alternate" hreflang="es" href="https://scholarpacks.github.io/es/">
+<link rel="alternate" hreflang="en" href="https://scholarpacks.github.io/en/">
+<link rel="alternate" hreflang="x-default" href="https://scholarpacks.github.io/">
+<style>
+  body { font-family: -apple-system, sans-serif; background:#FBF2DE; color:#1B2A3C; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; text-align:center; }
+  a { color:#1F6E62; font-weight:600; }
+</style>
+<script>
+  // Redirección automática según idioma del navegador.
+  // Si el usuario prefiere no esperar, los enlaces de abajo funcionan igual.
+  var idioma = (navigator.language || navigator.userLanguage || "en").toLowerCase();
+  if (idioma.indexOf("es") === 0) {
+    window.location.replace("es/index.html");
+  } else {
+    window.location.replace("en/index.html");
+  }
+</script>
+</head>
+<body>
+  <noscript>
+    <p>Elige tu idioma / Choose your language:</p>
+    <p><a href="es/index.html">Español</a> · <a href="en/index.html">English</a></p>
+  </noscript>
+  <p>Redirigiendo... / Redirecting... — <a href="es/index.html">Español</a> · <a href="en/index.html">English</a></p>
+</body>
+</html>
